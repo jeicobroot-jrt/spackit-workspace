@@ -9,6 +9,7 @@
 **sm-del: With this you can delete the messages**
 **sm-help: This command give to you a command list and numbers of the errors**
 **sm-new: This write the directory and put the IPs**
+**sm-ls: This give you a list for your numbers (IPs)** 
 
 **Watever,now we can start with the errors:**
 
