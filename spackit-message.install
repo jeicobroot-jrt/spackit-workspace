@@ -1,7 +1,0 @@
-post_install() {
-  echo "-------------------------------------------------------"
-  echo "  Spackit Message v1.3.0 instalado correctamente."
-  echo "  Desarrollado por Jeicobroot-jrt en Arch Linux."
-  echo "  Usa 'sm-help' para ver los comandos de red."
-  echo "-------------------------------------------------------"
-}
