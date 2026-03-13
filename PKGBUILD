@@ -9,7 +9,7 @@ license=('MIT')
 depends=('bash' 'netcat')
 install=spackit-message.install
 source=("setup_aliases.sh")
-sha256sums=('3bd3f0e50468a80f9418cc5eeef231b5500e3c06e47f9d758fc645c50bab0d74')
+sha256sums=('04820540eb4de282ac06d286e754acda68997327045287cff2b4fc08264e09b5')
 
 package() {
 
