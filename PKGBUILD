@@ -8,12 +8,12 @@ url="https://github.com/Jeicobroot-jrt/spackit-message"
 license=('MIT')
 depends=('bash' 'netcat')
 install=spackit-message.install
-source=("setup_aliases.sh")
-sha256sums=('04820540eb4de282ac06d286e754acda68997327045287cff2b4fc08264e09b5')
+source=("spackit_aliases.sh")
+sha256sums=('1d58ddd1b0017a0ecbcbcf9f164776118916c7b605afdd1fbe6186c6dfff0bcc')
 
 package() {
 
-    install -Dm755 "${srcdir}/setup_aliases.sh" "${pkgdir}/etc/profile.d/spackit-aliases.sh"
+    install -Dm755 "${srcdir}/spackit_aliases.sh" "${pkgdir}/etc/profile.d/spackit-aliases.sh"
     
     install -dm777 "${pkgdir}/var/spackit/messages"
 }
