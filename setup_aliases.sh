@@ -23,6 +23,8 @@ alias sm-help='echo "sm-del: you can delete messages with this.
 sm-init:if you are new downloading the package.
 sm-new:this create the user do you want to add.
 sm-read:you can see the messages via SM (Spackit Message) of the users of you create or added
+sm-ls:This give you a list of the IPs you have added
+
 
 ===LIST OF ERR NUMBERS===
 
