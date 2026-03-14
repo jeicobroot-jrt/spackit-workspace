@@ -9,7 +9,7 @@ license=('MIT')
 depends=('bash' 'netcat' 'php-apache' 'apache')
 install=spackit-workspace.install
 source=("spackit_aliases.sh")
-sha256sums=('7b50948424f3b88eb2f6788bd0decf3b07456e48b34997e476afc994e9b1261b')
+sha256sums=('e33bffcf9b8678f01b0a6f5490a4dee530668bc2f3f21d4c451137ae16ad3421')
 
 package() {
 
