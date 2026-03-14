@@ -1,15 +1,15 @@
 # Maintainer: Jeicob <jeicob_root>
 pkgname=spackit-workspace
-pkgver=1.8.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="A complete repo of spackit"
 arch=('any')
 url="https://github.com/Jeicobroot-jrt/spackit-workspace"
 license=('MIT')
-depends=('bash' 'netcat' 'micro' 'vim' 'php' 'php-apache' 'apache' 'python' 'python-gobject')
+depends=('bash' 'netcat' 'micro' 'php' 'php-apache' 'apache' 'python' 'python-gobject')
 install=spackit-workspace.install
 source=("spackit_aliases.sh")
-sha256sums=('1d58ddd1b0017a0ecbcbcf9f164776118916c7b605afdd1fbe6186c6dfff0bcc')
+sha256sums=('7b50948424f3b88eb2f6788bd0decf3b07456e48b34997e476afc994e9b1261b')
 
 package() {
 
