@@ -3,7 +3,7 @@ pkgbase = spackit-workspace
 	pkgver = 1.7.0
 	pkgrel = 1
 	url = https://github.com/Jeicobroot-jrt/spackit-message
-	install = spackit-message.install
+	install = spackit-workspace.install
 	arch = any
 	license = MIT
 	depends = bash
@@ -12,4 +12,3 @@ pkgbase = spackit-workspace
 	sha256sums = 1d58ddd1b0017a0ecbcbcf9f164776118916c7b605afdd1fbe6186c6dfff0bcc
 
 pkgname = spackit-workspace
-
