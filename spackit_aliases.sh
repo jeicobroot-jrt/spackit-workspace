@@ -21,7 +21,7 @@ alias sw-send='_sm_send(){ echo "$2" > /var/spackit/messages/"$1".SM; curl -s --
 
 # --- Spackit Workspace (.SW) protocol ---
 
-alias instal='sudo pacman -S'
+alias pacman='sudo pacman -S'
 
 alias aur='yay -S'
 
