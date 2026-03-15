@@ -11,6 +11,6 @@ pkgbase = spackit-workspace
 	depends = php-apache
 	depends = apache
 	source = spackit_aliases.sh
-	sha256sums = eb4d3c81784108c2f4ccbd557505b48dec9d7b38f049f123f96812dc9602c0f0
+	sha256sums = 5a1d7ea0dfd55dd035bbccd0f311e84fcc51833574b303006de8e90fbcf72fa5
 
 pkgname = spackit-workspace

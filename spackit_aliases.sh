@@ -27,7 +27,9 @@ alias aur="yay -S"
 
 alias root="su"
 
-alias mp="updpkgsums && makepkg -si && makepkg --print > .SRCINFO"
+alias sudo-undo="exit && cd ~"
+
+alias mak="updpkgsums && makepkg --print > .SRCINFO && makepkg -si"
 
 alias sw-help='echo "sw-del: you can delete messages with this. 
 sw-init:if you are new downloading the package.
