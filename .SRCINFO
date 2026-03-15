@@ -1,6 +1,6 @@
 pkgbase = spackit-workspace
 	pkgdesc = A complete repo of spackit
-	pkgver = 1.8.0
+	pkgver = 1.1.3
 	pkgrel = 1
 	url = https://github.com/Jeicobroot-jrt/spackit-workspace
 	install = spackit-workspace.install
@@ -8,14 +8,9 @@ pkgbase = spackit-workspace
 	license = MIT
 	depends = bash
 	depends = netcat
-	depends = micro
-	depends = vim
-	depends = php
 	depends = php-apache
 	depends = apache
-	depends = python
-	depends = python-gobject
 	source = spackit_aliases.sh
-	sha256sums = 1d58ddd1b0017a0ecbcbcf9f164776118916c7b605afdd1fbe6186c6dfff0bcc
+	sha256sums = eb4d3c81784108c2f4ccbd557505b48dec9d7b38f049f123f96812dc9602c0f0
 
 pkgname = spackit-workspace

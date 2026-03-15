@@ -21,15 +21,13 @@ alias sw-send='_sm_send(){ echo "$2" > /var/spackit/messages/"$1".SM; curl -s --
 
 # --- Spackit Workspace (.SW) protocol ---
 
-alias pacman='sudo pacman -S'
+alias pacman="sudo pacman -S"
 
-alias aur='yay -S'
+alias aur="yay -S"
 
-alias root='su'
+alias root="su"
 
-alias maked='mkdir'
-
-
+alias mp="updpkgsums && makepkg -si && makepkg --print > .SRCINFO"
 
 alias sw-help='echo "sw-del: you can delete messages with this. 
 sw-init:if you are new downloading the package.
