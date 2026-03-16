@@ -13,7 +13,7 @@ sha256sums=('138568a3c9e0a0c6a4884c9b68d52fc64ec95435ea3966492d26c9fa61047aff')
 
 package() {
 
-    install -Dm755 "${srcdir}/spackit_aliases.sh" "${pkgdir}/etc/profile.d/spackit_aliases.sh"
+    install -Dm755 "${srcdir}/spackit_aliases.sh" "${pkgdir}/etc/profile.d/spackit_aliases.shq"
     
     install -dm777 "${pkgdir}/var/spackit/messages"
 
