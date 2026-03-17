@@ -32,3 +32,4 @@
 **324=Cannot be eliminated**
 
 **Good!!,the tour has finished! now you can install the AUR**
+**.**
