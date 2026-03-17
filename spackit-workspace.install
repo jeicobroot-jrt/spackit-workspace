@@ -2,11 +2,16 @@ pre_install() {
 
     if [ -f /etc/profile.d/spackit_aliases.sh ]; then
         echo "==> Detected the archive spackit_aliases.sh"
-        echo "==> translating /etc/profile.d/spackit_aliases.sh to /etc/profile.d/spacki_aliases.sh "
-        mv /etc/profile.d/spackit_aliases.sh /etc/profile.d/spacki_aliases.sh
-        echo "==>restoring /etc/profile.d/spackit_aliases.sh"
-        mv /etc/profile.d/spacki_aliases.sh /etc/profile.d/spackit_aliases.sh
+        echo "==> translating /etc/profile.d/spackit_aliases.sh to /etc/profile.d/spackit-aliases.sh "
+        mv /etc/profile.d/spackit_aliases.sh /etc/profile.d/spackit-aliases.sh
 
         echo ":: finished the process!"
     fi
+}
+
+post_install() {
+	if [ -f /etc/profile.d/spackit_aliases.sh ]; then
+	echo "restoring spackit_aliases.sh"
+	mv /etc/profile.d/spackit-aliases.sh /etc/profile.d/spackit_aliases.sh
+		echo ":-->process finished!"
 }
