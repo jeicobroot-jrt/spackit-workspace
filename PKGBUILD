@@ -1,7 +1,7 @@
 # Maintainer: Jeicob <jeicob_root>
 pkgname=spackit-workspace
 pkgver=0.10.1
-pkgrel=1
+pkgrel=2
 pkgdesc="A complete repo of spackit"
 arch=('any')
 url="https://github.com/Jeicobroot-jrt/spackit-workspace"
