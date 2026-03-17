@@ -10,6 +10,7 @@ pkgbase = spackit-workspace
 	depends = netcat
 	depends = php-apache
 	depends = apache
+	depends = git
 	source = spackit_aliases.sh
 	sha256sums = 138568a3c9e0a0c6a4884c9b68d52fc64ec95435ea3966492d26c9fa61047aff
 
