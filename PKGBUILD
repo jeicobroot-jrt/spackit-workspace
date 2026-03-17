@@ -18,3 +18,5 @@ package() {
     install -dm777 "${pkgdir}/var/spackit/messages"
 
 } 
+
+#Don`t broke anythink
