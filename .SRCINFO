@@ -1,6 +1,6 @@
 pkgbase = spackit-workspace
 	pkgdesc = A complete repo of spackit
-	pkgver = 0.10.0
+	pkgver = 0.10.1
 	pkgrel = 1
 	url = https://github.com/Jeicobroot-jrt/spackit-workspace
 	install = spackit-workspace.install
