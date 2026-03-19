@@ -1,6 +1,6 @@
 # Maintainer: Jeicob <jeicob_root>
 pkgname=spackit-workspace
-pkgver=0.10.1
+pkgver=0.10.3
 pkgrel=3
 pkgdesc="A complete repo of spackit"
 arch=('any')
@@ -8,12 +8,12 @@ url="https://github.com/Jeicobroot-jrt/spackit-workspace"
 license=('MIT')
 depends=('bash' 'netcat' 'php-apache' 'apache' 'git')
 install=spackit-workspace.install
-source=("spackit_aliases.sh")
-sha256sums=('138568a3c9e0a0c6a4884c9b68d52fc64ec95435ea3966492d26c9fa61047aff')
+source=("setup_aliases.sh")
+sha256sums=('b8ec77e2dfb1986ed405386db79a0ae90e0da8bda381d7d10b9f2213a0a9739a')
 
 package() {
 
-    install -Dm755 "${srcdir}/spackit_aliases.sh" "${pkgdir}/etc/profile.d/spackit_aliases.sh"
+    install -Dm755 "${srcdir}/setup_aliases.sh" "${pkgdir}/etc/profile.d/setup_aliases.sh"
     
     install -dm777 "${pkgdir}/var/spackit/messages"
 

@@ -1,5 +1,6 @@
 # --- Spackit Message (.SM) Protocol ---
 export SM_PATH="/var/spackit/messages"
+#
 
 
 alias sw-init='sudo mkdir -p $SM_PATH && sudo chmod 777 $SM_PATH && sudo pacman -S yay'
@@ -27,11 +28,9 @@ alias aur="yay -S"
 
 alias root="su"
 
-mak() {
-  updpkgsums
-  makepkg --printsrcinfo > .SRCINFO
-  makepkg -si
-}
+alias sudo-undo="exit && cd ~"
+
+alias mak="updpkgsums && makepkg --print > .SRCINFO && makepkg -si"
 
 alias sw-help='echo "sw-del: you can delete messages with this. 
 sw-init:if you are new downloading the package.
