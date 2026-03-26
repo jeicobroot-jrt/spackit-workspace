@@ -1,5 +1,5 @@
 # Maintainer: Jeicob <jeicob_root>
-pkgname=spackit-workspace
+pkgname=spackit-workspace-git
 pkgver=0.10.4
 pkgrel=3
 pkgdesc="A complete repo of spackit"
